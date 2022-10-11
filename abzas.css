@@ -1,0 +1,1103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(17,18,22);
+}
+.container{
+    width: 80%;
+    height: 401vh;
+    background-color: rgb(5, 5, 8);
+    margin-left: 150px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    background-color: rgb(30, 30, 40);
+}
+.logo{
+    width: 20%;
+    height: 80px;
+    border: 1px solid whitesmoke;
+    color: white;
+    display: flex;
+}
+.logo > img{
+    height: 80px;
+}
+.logo h1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.menyu{
+    width: 80%;
+    height: 80px;
+    border:1px solid whitesmoke; 
+}
+.button{
+    float: right;
+    width: 120px;
+    height: 30px;
+    margin: 14px;
+    border-radius: 50px;
+}
+.search{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 40%;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.main{
+    display: flex;
+}
+.div-1{
+    border: 1px solid white;
+    width: 20%;
+    height: 370vh;
+    color: white;
+}
+ .xas2{
+    margin-left: 25px;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 20px;
+}
+.div-1 > ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+} 
+ul li{
+   margin-left: 25px;
+   margin-top: 10px;
+   padding: 8px;
+   color: rgb(190, 190, 190);
+}
+ul li:hover{
+    color: white;
+}
+li .fa-house-user{
+    color: black ;
+}
+.fchld {
+    background-color: aqua;
+    color: black;
+}
+.div-2{
+    border: 1px solid white;
+    width: 80%;
+    color: white;
+    height: 370vh;
+}
+.images-first{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+.image-1{
+    background-image: url(https://yabancidizi.co/uploads/series/cover/see-izle-2.jpg);
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.image-1 > p{
+    margin-top: 244px;
+   padding-left: 140px;
+    font-size: 23px;
+    color: white;
+    display: none;
+}
+.image-1:hover p{
+    border: 1px solid black;
+    background-color: rgb(110, 110 , 110);
+    display: block;
+}
+.image-2{
+    background-image: url(https://yabancidizi.co/uploads/series/cover/pahanhautoja.jpg);
+    width: 25%;
+    height: 135px;
+    background-size: contain;
+}
+.image-3{
+    background-image: url(https://yabancidizi.co/uploads/series/cover/the-contractor.jpg);
+    width: 25%;
+    height: 135px;
+    background-size: contain;
+}
+.images-second{
+    display: flex;
+    height: 200px;
+    position: relative;
+}
+.image-a{
+    background-image: url(https://yabancidizi.co/uploads/series/cover/the-lord-of-the-rings-the-rings-of-power.jpg);
+    width: 25%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.image-b{
+    background-image: url(https://yabancidizi.co/uploads/series/cover/pennyworth.jpg);
+    width: 25%;
+    height:138px;
+    background-size: contain;
+}
+.image-c{
+    background-image: url(https://yabancidizi.co/uploads/series/cover/infinite.jpg);
+    width: 50%;
+    height: 400px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0%;
+   bottom: -36px;
+}
+.image-c > p{
+    margin-top: 280px;
+   padding-left: 200px;
+    font-size: 23px;
+    color: white;
+    display: none;
+}
+.image-c:hover p{
+    border: 1px solid black;
+    background-color: rgb(110, 110 , 110);
+    display: block;
+}
+.xas23{
+    text-align: left;
+    margin-left: 40px;
+
+}
+.newseasonfragments{
+    width: 100%;
+    height: 250px;
+    border: 1px solid white;
+   overflow: auto;
+}
+.fragments{
+    width: 1700px;
+    height: 170px;
+    display: flex;
+}
+.fr-1{
+    background-image: url(https://yabancidizi.co/uploads/series/you-izle_thumb.jpg);
+    width: 20%;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.fr-2{
+    background-image: url(https://yabancidizi.co/uploads/series/alice-in-borderland_thumb.jpg);
+    width: 20%;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.fr-3{
+    background-image: url(https://yabancidizi.co/uploads/series/lupin-izle_thumb.jpg);
+    width: 20%;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+
+}
+.fr-4{
+    background-image: url(https://yabancidizi.co/uploads/series/willow_thumb.jpg);
+    width: 20%;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.fr-5{
+    background-image: url(https://yabancidizi.co/uploads/series/manifest_thumb.jpg);
+    width: 20%;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px; 
+}
+.fr-6{
+    background-image: url(https://yabancidizi.co/uploads/series/big-sky-izle_thumb.jpg);
+    width: 20%;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;  
+}
+.fr-7{
+    background-image: url(https://yabancidizi.co/uploads/series/fate-the-winx-saga_thumb.jpg);
+    width: 20%;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;  
+}
+.fr-8{
+    background-image: url(https://yabancidizi.co/uploads/series/vampire-academy_thumb.jpg);
+    width: 20%;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;  
+}
+h3{
+    width: 20%;
+    text-align: center;
+}
+.h3flex{
+    display: flex;
+    width: 1650px;
+}
+.xash{
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+.hash{
+        text-align: left;
+        margin-left: 40px;
+        padding: 10px;
+        height: 60px;
+}
+.YDsonbolumleri-1{
+    width: 100%;
+    height: 101px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.yd-1{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 10px;
+    background-color: rgb(10, 10, 10);
+}
+.yd-1:hover{
+    background-color: rgb(40, 40, 40);
+}
+.yd-1 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.yd-2{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-2:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-2 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+
+.yd-3{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-3:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-3 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.yd-4{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-4:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-4 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-1{
+    float: right;
+    font-size: 11px;
+    margin-top: 40px;
+    margin-right: 3px;
+}
+.span-2{
+    float: right;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-right: 35px;
+}
+.span-3{
+    float: right;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-right: 16px;
+}
+.span-4{
+    float: right;
+    font-size: 11px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.YDsonbolumleri-2{
+    width: 100%;
+    height: 101px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.yd-5{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 10px;
+    background-color: rgb(10, 10, 10);
+}
+.yd-5:hover{
+    background-color: rgb(40, 40, 40);
+}
+.yd-5 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-5{
+    float: right;
+    font-size: 11px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.yd-6{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-6:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-6 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-6{
+    float: right;
+    font-size: 8px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.yd-7{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-7:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-7 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-7{
+    float: right;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-right: 16px;
+}
+.yd-8{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-8:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-8 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-8{
+    float: right;
+    font-size: 11px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.YDsonbolumleri-3{
+    width: 100%;
+    height: 101px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.yd-9{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 10px;
+    background-color: rgb(10, 10, 10);
+}
+.yd-9:hover{
+    background-color: rgb(40, 40, 40);
+}
+.yd-9 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-9{
+    float: right;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.yd-10{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-10:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-10 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-10{
+    float: right;
+    font-size: 10px;
+    margin-top: 40px;
+    margin-right: 15px;
+}
+.yd-11{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-11:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-11 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-11{
+    float: right;
+    font-size: 9px;
+    margin-top: 40px;
+    margin-right: 3px;
+}
+.yd-12{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-12:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-12 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-12{
+    float: right;
+    font-size: 11px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.YDsonbolumleri-4{
+    width: 100%;
+    height: 101px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.yd-13{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 10px;
+    background-color: rgb(10, 10, 10);
+}
+.yd-13:hover{
+    background-color: rgb(40, 40, 40);
+}
+.yd-13 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-13{
+    float: right;
+    font-size: 11px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.yd-14{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-14:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-14 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-14{
+    float: right;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.yd-15{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-15:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-15 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-15{
+    float: right;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.yd-16{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-16:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-16 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-16{
+    float: right;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-right: 35px;
+}
+.YDsonbolumleri-5{
+    width: 100%;
+    height: 101px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.yd-17{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 10px;
+    background-color: rgb(10, 10, 10);
+}
+.yd-17:hover{
+    background-color: rgb(40, 40, 40);
+}
+.yd-17 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-17{
+    float: right;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.yd-18{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-18:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-18 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-18{
+    float: right;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.yd-19{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-19:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-19 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-19{
+    float: right;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.yd-20{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-20:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-20 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-20{
+    float: right;
+    font-size: 9px;
+    margin-top: 40px;
+    margin-right: 5px;
+}
+.YDsonbolumleri-6{
+    width: 100%;
+    height: 101px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.yd-21{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 10px;
+    background-color: rgb(10, 10, 10);
+}
+.yd-21:hover{
+    background-color: rgb(40, 40, 40);
+}
+.yd-21 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-21{
+    float: right;
+    font-size: 9px;
+    margin-top: 40px;
+    margin-right: 5px;
+}
+.yd-22{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-22:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-22 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-22{
+    float: right;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.yd-23{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-23:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-23 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-23{
+    float: right;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.yd-24{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-24:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-24 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-24{
+    float: right;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.YDsonbolumleri-7{
+    width: 100%;
+    height: 101px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.yd-25{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 10px;
+    background-color: rgb(10, 10, 10);
+}
+.yd-25:hover{
+    background-color: rgb(40, 40, 40);
+}
+.yd-25 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-25{
+    float: right;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+.yd-26{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-26:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-26 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-26{
+    float: right;
+    font-size: 10px;
+    margin-top: 40px;
+    margin-right: 15px;
+}
+.yd-27{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-27:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-27 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-27{
+    float: right;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.yd-28{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(10, 10, 10);
+}
+.yd-28:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.yd-28 img{
+    margin: 15px 15px 15px 5px;
+    height: 70px;
+    width: 40%;
+}
+.span-28{
+    float: right;
+    font-size: 10px;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+.dfb{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 25px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(100, 90, 100);
+}
+.dfb:hover{
+    color: white;
+    background-color: rgb(40, 40 , 40);
+}
+.dfb i{
+    margin-right: 10px;
+}
+.ddd{
+    text-align: left;
+    margin-left: 40px;
+    padding: 10px;
+    height: 60px;
+}
+.dddimages-1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.dddimage{
+    width: 25%;
+    height: 150px;
+    border: 1px solid rgb(50, 50, 50) ;
+}
+.dddimage:hover{
+    border: 5px solid white;
+}
+.dddimage img{
+    width: 100%;
+    height:150px ;
+}
+.dddimages-2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.ddimage{
+    width: 25%;
+    height: 150px;
+    border: 1px solid rgb(50, 50, 50) ;
+}
+.ddimage:hover{
+    border: 5px solid white;
+}
+.ddimage img{
+    width: 100%;
+    height:150px ;
+}
+h4{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: rgb(20, 7, 30);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+.cols{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.col-1{
+    width:65%;
+    height: 40px;
+    color: white;
+    padding-top: 5px;
+}
+.col-2{
+    width: 35%;
+    height: 40px;
+    color: white;
+    padding-top: 5px;
+}
+.sutunlar{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.sutun-1{
+    width: 65%;
+    height: 600px;
+}
+.sutun-a, .sutun-c{
+    width: 100%;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+.sutun-2{
+    width: 35%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.foto img{
+    width: 100%;
+    height: 210px;
+   border: 1px solid rgb(50, 50, 50);
+}
+.foto img:hover{
+    border: 5px solid white;
+}
+.sutun-b, .sutun-d{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.sutun-b1, .sutun-b2 , .sutun-b3 , .sutun-b4, .sutun-b5, .sutun-b6, .sutun-b7, .sutun-b8{
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    color: skyblue;
+}
+.ood{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    background-color: rgb(10, 10, 10);
+}
+.ood:hover{
+    background-color: rgb(40, 40 , 40);
+}
+.ood img{
+    height: 40px;
+    margin: 10px;
+}
+.fa-star{
+    color: orange;
+}
+.span-a{
+    float: right;
+    margin-right: 180px;
+    margin-top: 12px;
+}
+.span-b{
+    float: right;
+    margin-right: 210px;
+    margin-top: 12px;
+}
+.span-c{
+    float: right;
+    margin-right: 210px;
+    margin-top: 12px;
+}
+.span-d{
+    float: right;
+    margin-right: 215px;
+    margin-top: 12px;
+}
+.span-e{
+    float: right;
+    margin-right: 215px;
+    margin-top: 12px;
+}
+.span-f{
+    float: right;
+    margin-right: 216px;
+    margin-top: 12px;
+}
+.span-g{
+    float: right;
+    margin-right: 170px;
+    margin-top: 12px;
+}
+.span-h{
+    float: right;
+    margin-right: 170px;
+    margin-top: 12px;
+}
+.footer-1{
+    display: flex;
+}
+.logo-a{
+    display: flex;
+    width: 40%;
+    height: 150px;
+}
+h5{
+    color: white;
+    font-size: 45px;
+    margin-left: 40px;
+    margin-top: 45px ;
+}
+.footer-1{
+    border: 1px solid white;
+}
+.sosme{
+    display: flex;
+    width: 60%;
+    height: 150px;
+    border: 1px solid white;
+}
+.sosme-1, .sosme-2, .sosme-3, .sosme-4{
+    width: 25%;
+    height: 150px;
+    font-size:20px; 
+    margin-top: 50px;
+    color: white;
+}
+
+
+
+
+
